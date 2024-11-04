@@ -21,7 +21,7 @@ const Section: React.FC<SectionProps> = ({
       relative 
       ${
         customPaddings ||
-        `py-10 lg:py-16 xl:py-14  ${crosses ? "" : ""}`
+        `  ${crosses ? "" : ""}`
       } 
       ${className || ""}`}
     >

@@ -1,19 +1,40 @@
 {
     "navigation": {
       "home": "Home",
-      "service": "Service",
-      "about": "About"
+      "pricing": "Pricing",
+      "about": "About",
+      "signin": "Login",
+      "signup": "Register for Free"
     },
-    "introHero": "Find creative students to solve your problems",
-    "titlePurpose": "Ambiskerja.com is ready to serve you anytime, we come with the spirit of youth.",
-    "titleSubPurpose1": "Empowering Students",
-    "titleSubPurpose2": "Transaction Security",
-    "titleSubPurpose3": "Affordable Service Fees",
-    "titleSubPurpose4": "24-Hour Customer Support",
-    "descSubPurposes1": "Indonesian students have many skills that can help you solve problems. Give them opportunities and discover their amazing potential.",
-    "descSubPurposes2": "Every payment for services you make will be forwarded to the freelancer only after you approve it. Get a money-back guarantee if the results are unsatisfactory.",
-    "descSubPurposes3": "Choose the services you need at an affordable price. Our freelancers are ready to serve you at any time.",
-    "descSubPurposes4": "Contact our team anytime if there are any issues related to your order."
+    "introHero": "With just a few clicks, you can create your own website. Build hyperlinks and catalogs to boost your marketing and sales. Give it a try now!",
+    "titlePurpose": "SellinkIt offers a variety of services that you can take advantage of",
+    "titleSubPurpose1": "Catalog",
+    "titleSubPurpose2": "Hyperlink",
+    "titleSubPurpose3": "Analysis",
+    "titleSubPurpose4": "Customize",
+    "descSubPurposes1": "Create your own product catalog and boost sales",
+    "descSubPurposes2": "Link all your social media in a single page",
+    "descSubPurposes3": "Get accurate visitor data analytics to support decision-making",
+    "descSubPurposes4": "Create attractive designs as you like",
+    "whattheysay" : "What They Say",
+    "yazidimani": "This is a fantastic service! Highly recommended",
+    "ahdian": "Absolutely wonderful experience, very satisfied!",
+    "naufal": "Great support and quick response times. A+!",
+    "titleRegister": "Join Us Soon",
+    "placeholderFullName": "Enter Full Name",
+    "placeholderEmail": "Enter Email",
+    "placeholderPassword": "Enter Password",
+    "placeholderConfirmPassword": "Confirm Password",
+    "placeholderPhoneNumber": "Enter Phone Number",
+    "placeholderDomainUser": "Enter Domain Name",
+    "FullName": "Full Name",
+    "Email": "Email",
+    "Password": "Password",
+    "ConfirmPassword": "Confirm Password",
+    "PhoneNumber": "Phone Number",
+    "DomainUser": "Domain",
+    "submit": "Submit"
+    
 
     
 

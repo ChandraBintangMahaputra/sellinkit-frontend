@@ -78,14 +78,19 @@ const Header = () => {
     >
       <div className="flex flex-col lg:flex-row justify-between items-center px-5 lg:px-7.5 xl:px-10">
         <div className="hidden lg:flex lg:order-first lg:pr-10 lg:items-center">
-          <img
-            src={isScrolled ? scale : scaleWhite}
-            width={150}
-            height={40}
-            alt="otsuka"
-            className="cursor-pointer"
-            onClick={() => navigate(`/`)}
-          />
+          {
+            !openNavigation && (
+              <img
+              src={isScrolled ? scale : scaleWhite}
+              width={150}
+              height={40}
+              alt="otsuka"
+              className="cursor-pointer"
+              onClick={() => navigate(`/`)}
+            />
+            )
+          }
+        
         </div>
 
         <nav
@@ -105,7 +110,7 @@ const Header = () => {
                 width={150}
                 height={40}
                 className="p-5"
-                alt="tpl"
+                alt="logo"
               />
             </div>
             {navigation.map((item) => {
@@ -121,15 +126,15 @@ const Header = () => {
                   className={`block relative font-code text-2xl uppercase transition-colors lg:flex lg:justify-start lg:items-start ${
                     openNavigation
                       ? isActive
-                        ? "text-black font-bold"
-                        : "text-black/50 hover:text-purple-500"
+                        ? "text-green-300 font-bold"
+                        : "text-black/50 hover:text-green-500"
                       : isScrolled
                       ? isActive
-                        ? "text-black font-bold"
-                        : "text-black/50 hover:text-purple-500"
+                        ? "text-green-300 font-bold"
+                        : "text-black/50 hover:text-green-500"
                       : isActive
-                      ? "text-white font-bold"
-                      : "text-white/70 hover:text-white"
+                      ? "text-green-500 font-bold" 
+                      : "text-white hover:text-green-500"
                   } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:leading-5`}
                 >
                   {t(`navigation.${item.title.toLowerCase()}`)}
@@ -143,7 +148,7 @@ const Header = () => {
               <select
                 onChange={(e) => changeLanguage(e.target.value)}
                 value={storedLanguage} // Set the value based on localStorage
-                className={`rounded-md p-2 bg-transparent border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 bold ${isScrolled ? "text-gray-700 ":"text-gray-400"} `}
+                className={`rounded-md p-2 bg-transparent border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 bold ${isScrolled ? "text-gray-700 ":"text-gray-400"} `}
               >
                 <option value="en">EN</option>
                 <option value="id">ID</option>

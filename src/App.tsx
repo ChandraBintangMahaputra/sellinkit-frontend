@@ -1,8 +1,8 @@
 import Header from "./components/landing-page/Header";
 import Hero from "./components/landing-page/Hero";
 import Purpose from "./components/landing-page/Purpose";
-import { Contact } from "./components/landing-page/Contact";
 import Footer from "./components/landing-page/Footer";
+import WhatTheSay from "./components/landing-page/WhatTheSay";
 
 const App = () => {
 
@@ -12,7 +12,7 @@ const App = () => {
         <Header />
         <Hero />
         <Purpose />
-        <Contact />
+        <WhatTheSay />
         <Footer />
       </div>
     </main>

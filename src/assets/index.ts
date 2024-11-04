@@ -1,5 +1,4 @@
-import background from "./background.png"
-import tpl from "./logo/tpl.png"
+
 import scale from "./logo/scale.png"
 import herobackground from "./hero/backgroundhero.jpg"
 import bgheader from "./hero/bgheader.jpg"
@@ -15,10 +14,13 @@ import purposeimage1 from "./purposeimage1.png"
 import purposeimage2 from "./purposeimage2.png"
 import purposeimage3 from "./purposeimage3.png"
 import purposeimage4 from "./purposeimage4.png"
+import favicon from "./logo/logo-favicon.png"
+import image from './Select.png'
+import imagepurpose from './imagepurpose.png'
+import doc1 from './doc1.png'
+import doc2 from './doc2.png'
 
 export{
-    background,
-    tpl,
     herobackground,
     bgheader,
     purposeImage,
@@ -33,5 +35,10 @@ export{
     kepemimpinan,
     achieve,
     education,
-    email1bg
+    email1bg,
+    favicon,
+    image,
+    imagepurpose,
+    doc1,
+    doc2
 }

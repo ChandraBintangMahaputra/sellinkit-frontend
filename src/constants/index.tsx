@@ -6,13 +6,23 @@ export const navigation = [
     },
     {
       id: "1",
-      title: "service",
-      url: "/#program",
+      title: "pricing",
+      url: "/pricing",
     },
     {
       id: "2",
       title: "about",
-      url: "/#footer",
+      url: "/about",
+    },
+    {
+      id: "3",
+      title: "signin",
+      url: "/login",
+    },
+    {
+      id: "4",
+      title: "signup",
+      url: "/register",
     },
    
   ];
